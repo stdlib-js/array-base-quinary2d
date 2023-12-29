@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var uniform = require( '@stdlib/random-base-uniform' ).factory;
 var isnan = require( '@stdlib/math-base-assert-is-nan' );
 var pow = require( '@stdlib/math-base-special-pow' );
@@ -28,26 +28,12 @@ var floor = require( '@stdlib/math-base-special-floor' );
 var filled2dBy = require( '@stdlib/array-base-filled2d-by' );
 var zeros2d = require( '@stdlib/array-base-zeros2d' );
 var numel = require( '@stdlib/ndarray-base-numel' );
+var add = require( '@stdlib/math-base-ops-add5' );
 var pkg = require( './../package.json' ).name;
 var quinary2d = require( './../lib' );
 
 
 // FUNCTIONS //
-
-/**
-* Returns the sum.
-*
-* @private
-* @param {number} x - first value
-* @param {number} y - second value
-* @param {number} z - third value
-* @param {number} w - fourth value
-* @param {number} v - fifth value
-* @returns {number} sum
-*/
-function add( x, y, z, w, v ) {
-	return x + y + z + w + v;
-}
 
 /**
 * Creates a benchmark function.
