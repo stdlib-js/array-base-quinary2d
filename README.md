@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import quinary2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-quinary2d@esm/index.mjs';
+import quinary2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-quinary2d@v0.2.2-esm/index.mjs';
 ```
 
 #### quinary2d( arrays, shape, fcn )
@@ -104,7 +104,7 @@ var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-bas
 import filled2dBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled2d-by@esm/index.mjs';
 import zeros2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros2d@esm/index.mjs';
 import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add5@esm/index.mjs';
-import quinary2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-quinary2d@esm/index.mjs';
+import quinary2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-quinary2d@v0.2.2-esm/index.mjs';
 
 var shape = [ 3, 3 ];
 
