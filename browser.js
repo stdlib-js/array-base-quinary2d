@@ -1,3 +1,0 @@
-// Copyright (c) 2025 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-var e,f;e=this,f=function(){"use strict";return function(e,f,o){var n,i,t,d,r,u,s,l,a,p,c,y,b,h,m,g;if(n=f[1],i=f[0],!(n<=0||i<=0))for(c=e[0],y=e[1],b=e[2],h=e[3],m=e[4],g=e[5],d=0;d<i;d++)for(r=c[d],u=y[d],s=b[d],l=h[d],a=m[d],p=g[d],t=0;t<n;t++)p[t]=o(r[t],u[t],s[t],l[t],a[t])}},"object"==typeof exports&&"undefined"!=typeof module?module.exports=f():"function"==typeof define&&define.amd?define(f):(e="undefined"!=typeof globalThis?globalThis:e||self).quinary2d=f();
-//# sourceMappingURL=browser.js.map
